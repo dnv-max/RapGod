@@ -29,7 +29,7 @@ pip3 install pyautogui
 
 ```bash
 # Installing the repository -
-git clone https://github.com/dnv-max/spammingo
+git clone https://github.com/dnv-max/RapGod
 # Go to the directory -
 cd RapGod
 # Run the script -
