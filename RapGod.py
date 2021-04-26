@@ -12,7 +12,8 @@ print("  ")
 print("  ")
 print("Please Choose what you want to spam (you will have ten seconds to go to the destination of spam")
 print("A] full song                                 B] fastest verse ")
-a = str(input("Enter the option :  ")
+a = str(input("Enter the digit :  ") 
+if a = "A":
         print(10)
         time.sleep(1)
         print(9)
@@ -34,13 +35,12 @@ a = str(input("Enter the option :  ")
         print(1)
         time.sleep(1)
         print(0)
-        if a = "A":
-                b = open("song", 'r')
-                for c in b:
-                        pyautogui.typewrite(c)
-                        pyautogui.press("enter")
-        else :
-                d = open("verse", 'r')
-                for e in d:
-                        pyautogui.typewrite(e)
-                        pyautogui.press("enter")  
+        b = open("song", 'r')
+        for c in b:
+                pyautogui.typewrite(c)
+                pyautogui.press("enter")
+else :
+        d = open("verse", 'r')
+        for e in d:
+                pyautogui.typewrite(e)
+                pyautogui.press("enter")
