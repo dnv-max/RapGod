@@ -34,7 +34,13 @@ time.sleep(1)
 print(1)
 time.sleep(1)
 print(0)
-if a = "A" :
-        
+if a = "A":
+        b = open("song", 'r')
+        for c in b:
+                pyautogui.typewrite(c)
+                pyautogui.press("enter")
 else :
-        
+      d = open("verse", 'r')
+        for e in d:
+                pyautogui.typewrite(e)
+                pyautogui.press("enter")  
