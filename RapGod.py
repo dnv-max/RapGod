@@ -12,7 +12,7 @@ print("  ")
 print("  ")
 print("Please Choose what you want to spam (you will have ten seconds to go to the destination of spam")
 print("A] full song                                 B] fastest verse ")
-a = str(input("Enter the digit :  "))
+a = str(input("Enter the letter :  "))
 if a == "A" or a == "a":
         print(10)
         time.sleep(1)
