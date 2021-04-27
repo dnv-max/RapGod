@@ -13,7 +13,7 @@ print("  ")
 print("Please Choose what you want to spam (you will have ten seconds to go to the destination of spam")
 print("A] full song                                 B] fastest verse ")
 a = str(input("Enter the digit :  ") 
-if a == "A" :
+if a == "A"
         print(10)
         time.sleep(1)
         print(9)
@@ -39,7 +39,7 @@ if a == "A" :
         for c in b:
                 pyautogui.typewrite(c)
                 pyautogui.press("enter")
-else :
+else 
         print(10)
         time.sleep(1)
         print(9)
