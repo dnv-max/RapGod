@@ -35,7 +35,7 @@ if a == "A":
         print(1)
         time.sleep(1)
         print(0)
-        b = open(song.txt, 'r')
+        b = open("song.txt", 'r')
         for c in b:
                 pyautogui.typewrite(c)
                 pyautogui.press("enter")
@@ -61,7 +61,7 @@ else :
         print(1)
         time.sleep(1)
         print(0)
-        d = open(verse.txt, 'r')
+        d = open("verse.txt", 'r')
         for e in d:
                 pyautogui.typewrite(e)
                 pyautogui.press("enter")
