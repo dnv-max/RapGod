@@ -35,7 +35,19 @@ cd RapGod
 # Run the script -
 python3 RapGod.py
 # Choose the option -
-
+ _  ___           _                 _       _     
+| |/ (_)_ __   __| | __ _  ___ __ _| |_ ___| |__  
+| ' /| | '_ \ / _` |/ _` |/ __/ _` | __/ __| '_ \ 
+| . \| | | | | (_| | (_| | (_| (_| | || (__| | | |
+|_|\_\_|_| |_|\__,_|\__,_|\___\__,_|\__\___|_| |_|
+  
+  
+  
+  
+  
+Please Choose what you want to spam (you will have ten seconds to go to the destination of spam
+A] full song                                 B] fastest verse 
+Enter the letter :  (Choose A or B)
 # Now quickly change the window to where you have to spam -
 
 ```
